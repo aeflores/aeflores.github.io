@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pigments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Antonio Flores Montoya'
+tagline:          'Personal Page'
+description:      'Computer Scientist'
+url:              http://aeflores.github.io
+baseurl:          /
+
+author:
+  name:           'Antonio Flores Montoya'
+  url:            http://aeflores.github.io
+
+#paginate:         1
+
+# Custom vars
+version:          2.1.0
+
+#github:
+#  repo:           https://github.com/poole/hyde
+  
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
