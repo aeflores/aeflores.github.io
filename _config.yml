@@ -9,12 +9,12 @@ permalink:        pretty
 title:            'Antonio Flores Montoya'
 tagline:          'Personal Page'
 description:      'Computer Scientist'
-url:              http://aeflores.github.io
+url:              https://aeflores.github.io
 baseurl:          /
 
 author:
   name:           'Antonio Flores Montoya'
-  url:            http://aeflores.github.io
+  url:            https://aeflores.github.io
 
 #paginate:         1
 
