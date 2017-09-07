@@ -11,7 +11,7 @@
     </div>
 
     <nav class="sidebar-nav">
-{% assign newspage = site.url | append: '/news/index.html' %}
+{% assign newspage = site.url | append: '/news/' %}
       <a class="sidebar-nav-item{% if page.url == newspage %} active{% endif %}" href="{{ site.url }}/news/index.html">News</a>
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
