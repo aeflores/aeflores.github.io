@@ -3,7 +3,7 @@ layout: post
 title: "SACO: Static Analyzer for Concurrent Objects"
 category: publication
 ---
-####Elvira Albert, Puri Arenas, Antonio Flores-Montoya, Samir Genaim, Miguel Gómez-Zamalloa, Enrique Martin-Martin, Germán Puebla, Guillermo Román-Díez
+#### Elvira Albert, Puri Arenas, Antonio Flores-Montoya, Samir Genaim, Miguel Gómez-Zamalloa, Enrique Martin-Martin, Germán Puebla, Guillermo Román-Díez
 *In Proceedings of Tools and Algorithms for the Construction and Analysis of
 Systems - 20th International Conference, TACAS 2014*  [link](http://costa.ls.fi.upm.es/papers/costa/AlbertAFGGMPR14.pdf)
 

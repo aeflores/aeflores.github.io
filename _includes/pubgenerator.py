@@ -21,7 +21,7 @@ def prettyPrintEntry(entry):
 
     	authors=entry["author"]
     	authorsStr = ", ".join(authors )
-    	f.write("####"+authorsStr)
+    	f.write("#### "+authorsStr)
 	if "booktitle" in entry:
     		f.write("\n*In "+entry["booktitle"]+"*")
 	if "journal" in entry:

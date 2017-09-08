@@ -3,7 +3,7 @@ layout: post
 title: "MayPar: a may-happen-in-parallel analyzer for concurrent objects"
 category: publication
 ---
-####Elvira Albert, Antonio Flores-Montoya, Samir Genaim
+#### Elvira Albert, Antonio Flores-Montoya, Samir Genaim
 *In 20th ACM SIGSOFT Symposium on the Foundations of Software
 Engineering (FSE-20), SIGSOFT/FSE'12*  [link](http://dl.acm.org/citation.cfm?id=2393611)
 
