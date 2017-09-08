@@ -3,7 +3,7 @@ from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import *
 
 
-pubList=["AlbertFG12","FloresAG13","AlbertFGM13","FMH14","AlbertFMG15","FM16","AlbertFGM15","AlbertFGM17","AlbertCFGG11","AlbertFG12-FSE","AlbertAFGGMPR14"]
+pubList=["Flores17","AlbertFG12","FloresAG13","AlbertFGM13","FMH14","AlbertFMG15","FM16","AlbertFGM15","AlbertFGM17","AlbertCFGG11","AlbertFG12-FSE","AlbertAFGGMPR14"]
 
 path="../_posts/publications/"
 
@@ -24,6 +24,8 @@ def prettyPrintEntry(entry):
     	f.write("#### "+authorsStr)
 	if "booktitle" in entry:
     		f.write("\n*In "+entry["booktitle"]+"*")
+	if "school" in entry:
+    		f.write("\n*"+entry["school"]+"*")
 	if "journal" in entry:
     		f.write("\n*In "+entry["journal"]+"*")
     	if "link" in entry:
