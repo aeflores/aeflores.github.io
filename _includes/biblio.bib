@@ -1,0 +1,1236 @@
+
+@string{LNCS =   {Lecture Notes in Computer Science}}
+@string{entcs={Electronic Notes in Theoretical Computer Science}}
+@string{toappear={To appear}}
+@string{jar = {Journal of Automated Reasoning}}
+@string{tocl = {ACM Transactions on Computational Logic}}
+
+@inproceedings{AlbertCFGG11,
+  author    = {Elvira Albert and Israel Caba{\~n}as and Antonio
+                  Flores-Montoya and Miguel G\'{o}mez-Zamalloa and
+                  Sergio Guti\'{e}rrez},
+  title     = {j{PET}: an {A}utomatic {T}est-{C}ase {G}enerator for {J}ava},
+  booktitle = {18th Working Conference on Reverse Engineering, WCRE 2011}, 
+  year      = {2011},
+  pages     = {441-442},
+  publisher = {IEEE Computer Society},
+  abstract = {We present jPET, a white box test-case generator (TCG) which can be used during software development of Java applications within the Eclipse environment. jPET builds on top of PET, a TCG which automatically obtains test-cases from the byte code associated to a Java program. jPET performs reverse engineering of the test-cases obtained at the byte code level by PET in order to yield this information to the user at the source code level. This allows understanding the information gathered at the lower level and using it to test source Java programs.},
+  month={10},
+  url = {http://costa.ls.fi.upm.es/papers/costa/AlbertCFGG11.pdf}
+}
+
+@Inproceedings {AlbertFG12-FSE,
+  author    = {Elvira Albert and Antonio Flores-Montoya and Samir Genaim},
+  title     = {MayPar: a may-happen-in-parallel analyzer for concurrent objects},
+  editor    = {Will Tracz and Martin P. Robillard and
+               Tevfik Bultan},
+  booktitle = {20th ACM SIGSOFT Symposium on the Foundations of Software
+               Engineering (FSE-20), SIGSOFT/FSE'12},
+  year      = {2012},
+  pages     = {1-4},
+  publisher = {ACM},
+  abstract = {We present the concepts, usage and prototypical implementation of MayPar, a may-happen-in-parallel (MHP) static analyzer for a distributed asynchronous language based on concurrent objects. Our tool allows analyzing an application and finding out the pairs of statements that can execute in parallel. The information can be displayed by means of a graphical representation of the MHP analysis graph or, in a textual way, as a set of pairs which identify the program points that may run in parallel. The information yield by MayPar can be relevant (1) to spot bugs in the program related to fragments of code which should not run in parallel and also (2) to improve the precision of other analyses which infer more complex properties (e.g., termination and cost).},
+  month={11},
+  url = {http://dl.acm.org/citation.cfm?id=2393611}
+}
+@inProceedings{AlbertAFGGMPR14,
+ author    = {Elvira Albert and
+               Puri Arenas and 
+               Antonio Flores-Montoya and 
+               Samir Genaim and 
+               Miguel G\'omez-Zamalloa and
+               Enrique Martin-Martin and 
+               Germ\'an Puebla and
+               Guillermo Rom\'an-D\'iez},
+ title     = {{SACO}: {S}tatic {A}nalyzer for {C}oncurrent {O}bjects},
+ editor    = {Erika {\'A}brah{\'a}m and Klaus Havelund},
+ booktitle = {Proceedings of Tools and Algorithms for the Construction and Analysis of
+               Systems - 20th International Conference, TACAS 2014},
+ series    = lncs,
+ volume    = {8413},
+ pages     = {562-567},
+ year      = {2014},
+ publisher = {Springer},
+  abstract = {We present the main concepts, usage and implementation of SACO, a static analyzer for concurrent objects. Interestingly, SACO is able to infer both liveness (namely termination and resource boundedness) and safety properties (namely deadlock freedom) of programs based on concurrent objects. The system integrates auxiliary analyses such as points-to and may-happen-in-parallel, which are essential for increasing the accuracy of the aforementioned more complex properties. SACO provides accurate information about the dependencies which may introduce deadlocks, loops whose termination is not guaranteed, and upper bounds on the resource consumption of methods.},
+  month={04},
+  url = {http://costa.ls.fi.upm.es/papers/costa/AlbertAFGGMPR14.pdf}
+}
+
+
+
+@inproceedings{Korp2009,
+author   ={Korp, Martin and
+          Sternagel, Christian and
+	  Zankl, Harald and
+	  Middeldorp, Aart},
+title    ={Tyrolean Termination Tool 2},
+editor   ={Treinen, Ralf},
+bookTitle={Proceedings of Rewriting Techniques and Applications: 20th International Conference, RTA 2009},
+series    = lncs,
+volume    = {5595},
+pages    ={295-304},
+year     ={2009},
+publisher={Springer},
+}
+
+
+@inproceedings{grobauer,
+ author = {Grobauer, Bernd},
+ title = {Cost Recurrences for {DML} Programs},
+ booktitle = {Proceedings of the Sixth ACM SIGPLAN International Conference on Functional Programming. ICFP 2001},
+ year = {2001},
+ pages = {253--264},
+ numpages = {12},
+ publisher = {ACM},
+} 
+
+
+@inproceedings{RelationalCostAnalysis,
+ author = {\c{C}i\c{c}ek, Ezgi and
+ Barthe, Gilles and
+ Gaboardi, Marco and
+ Garg, Deepak and
+ Hoffmann, Jan},
+ title = {Relational Cost Analysis},
+ booktitle = {Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages. POPL 2017},
+ year = {2017},
+ pages = {316--329},
+ numpages = {14},
+ publisher = {ACM},
+} 
+
+
+@inproceedings{Debray:1990,
+ author = {Debray, Saumya K. and
+ Lin, Nai-Wei and
+ Hermenegildo, Manuel},
+ editor    = {Bernard N. Fischer},
+ title = {Task Granularity Analysis in Logic Programs},
+ booktitle = {Proceedings of the ACM SIGPLAN 1990 Conference on Programming Language Design and Implementation, PLDI 1990},
+ year = {1990},
+ pages = {174--188},
+ numpages = {15},
+ publisher = {ACM},
+} 
+
+@inproceedings{Rosendahl,
+ author = {Rosendahl, Mads},
+ title = {Automatic Complexity Analysis},
+ booktitle = {Proceedings of the Fourth International Conference on Functional Programming Languages and Computer Architecture. FPCA 1989},
+ year = {1989},
+ pages = {144--156},
+ numpages = {13},
+ publisher = {ACM},
+} 
+@inproceedings{Vasconcelos2004,
+ author = {Vasconcelos, Pedro B. and
+ Hammond, Kevin},
+ title = {Inferring Cost Equations for Recursive, Polymorphic and Higher-order Functional Programs},
+ editor={Trinder, Phil
+and Michaelson, Greg J.
+and Pe{\~{n}}a, Ricardo},
+ booktitle = {Proceedings of the 15th International Conference on Implementation of Functional Languages, IFL' 03},
+ series = lncs,
+ volume= {3145},
+ year = {2004},
+ pages = {86--101},
+ numpages = {16},
+ publisher = {Springer},
+} 
+
+@inproceedings{DBLP:conf/tacas/Das017,
+  author    = {Ankush Das and
+               Jan Hoffmann},
+  title     = {{ML} for {ML:} Learning Cost Semantics by Experiment},
+  editor    = {Axel Legay and
+               Tiziana Margaria},
+  booktitle = {Proceedings of Tools and Algorithms for the Construction and Analysis of Systems
+               - 23rd International Conference, {TACAS} 2017},
+  series    = lncs,
+  volume    = {10205},
+  pages     = {190--207},
+  year      = {2017},
+  publisher = {Springer},
+}
+
+
+
+@inproceedings{Hoffmann2010,
+author={Hoffmann, Jan
+       and Hofmann, Martin},
+editor={Gordon, Andrew D.},
+title={Amortized Resource Analysis with Polynomial Potential},
+bookTitle={Proceedings of Programming Languages and Systems: 19th European Symposium on Programming, {ESOP} 2010},
+series = lncs,
+volume ={6012},
+year={2010},
+pages={287--306},
+publisher={Springer},
+}
+
+@inproceedings{HoffmannHofmann2010,
+author={Hoffmann, Jan
+        and Hofmann, Martin},
+editor={Ueda, Kazunori},
+title={Amortized Resource Analysis with Polymorphic Recursion and Partial Big-Step Operational Semantics},
+bookTitle={Proceedings of Programming Languages and Systems: 8th Asian Symposium, APLAS 2010},
+series = lncs,
+volume ={6461},
+year={2010},
+pages={172--187},
+publisher={Springer},
+}
+
+@inproceedings {Loat,
+author       = {Florian Frohn
+and Matthias Naaf
+and Jera Hensel
+and Marc Brockschmidt
+and J{\"u}rgen
+                Giesl},
+title = {Lower Runtime Bounds for Integer Programs},
+editor={Olivetti, Nicola
+and Tiwari, Ashish},
+booktitle    = {Proceedings of Automated Reasoning: 8th International Joint Conference. IJCAR 2016},
+series = lncs,
+volume ={9706},
+year     = {2016},
+pages={550--567},
+publisher    = {Springer},
+}
+
+@inproceedings{AlonsoAG13,
+author = {Diego Esteban Alonso-Blas
+    and  Puri Arenas
+    and Samir Genaim}, 
+title  = {Precise Cost Analysis via Local Reasoning},
+editor    = {Dang Van Hung and Mizuhito Ogawa},
+booktitle = {Proceedings of Automated Technology for Verification and Analysis - 11th International
+               Symposium, {ATVA} 2013},
+series    = lncs,
+volume    = {8172},
+year      = {2013},  
+pages     = {319-333},
+publisher = {Springer},
+}
+@inproceedings{AlonsoG12,
+  author    = {Diego Esteban Alonso-Blas  and Samir Genaim},
+  title     = {On the Limits of the Classical Approach to Cost Analysis},
+  editor    = {Antoine Min{\'e} and David Schmidt},
+booktitle = {Proceedings of Static Analysis - 19th International Symposium, SAS 2012},
+ series    = lncs,
+ volume    = {7460}, 
+ year      = {2012},
+ month     = sep,
+ pages     = {405-421},
+ publisher = {Springer},
+}
+
+
+@inproceedings{AlbertAGGZP12,
+ author = {Elvira Albert
+ and Puri Arenas
+ and Samir Genaim
+ and Miguel G\'omez-Zamalloa
+ and Germ\'an Puebla},
+ editor    = {Oleg Kiselyov and Simon Thompson},
+ title = {{COSTABS}: A {C}ost and {T}ermination {A}nalyzer for {ABS}},
+ booktitle = {Proceedings of the 2012 ACM SIGPLAN Workshop on Partial
+               Evaluation and Program Manipulation, PEPM 2012},
+ year = {2012},
+ pages = {151-154},
+ publisher = {ACM Press},
+}
+@inproceedings{AlbertAGGZP12a,
+  author    = {Elvira Albert 
+               and Puri Arenas
+	       and Samir Genaim
+	       and Miguel G{\'o}mez-Zamalloa 
+               and Germ{\'a}n Puebla},
+  title     = {Automatic Inference of Resource Consumption Bounds},
+  booktitle = {Proceedings of Logic for Programming, Artificial Intelligence, and Reasoning
+               - 18th International Conference, LPAR 2012},
+ series    = lncs,
+ volume    = {7180},
+ year      = {2012},
+ pages     = {1-11},
+ publisher = {Springer}, 
+}
+@inproceedings{AlbertAGPZ08a,
+author={Albert, Elvira
+       and Arenas, Puri
+       and Genaim, Samir
+       and Puebla, German
+       and Zanardini, Damiano},
+editor={de Boer, Frank S.
+       and Bonsangue, Marcello M.
+       and Graf, Susanne
+       and de Roever, Willem-Paul},
+title={{COSTA}: Design and Implementation of a Cost and Termination Analyzer for Java Bytecode},
+bookTitle={Formal Methods for Components and Objects: 6th International Symposium, FMCO 2007, Revised Lectures},
+series=lncs,
+volume= {5382},
+year={2008},
+pages={113--132},
+publisher={Springer},
+}
+
+
+
+@inproceedings{Loopus2015,
+  author    = {Moritz Sinn and
+               Florian Zuleger and
+               Helmut Veith},
+  editor    = {Roope Kaivola and
+               Thomas Wahl},
+  title     = {Difference Constraints: An adequate Abstraction for Complexity Analysis
+               of Imperative Programs},
+  booktitle = {Proceedings of Formal Methods in Computer-Aided Design, {FMCAD} 2015},
+  year      = {2015},
+  pages     = {144--151},
+  publisher = {{IEEE}},
+}
+
+
+@inproceedings{Lower_term_rewriting,
+  author =	{Florian Frohn
+  and J{\"u}rgen Giesl
+  and Jera Hensel
+  and Cornelius Aschermann
+  and Thomas Str{\"o}der},
+  title =	{Inferring Lower Bounds for Runtime Complexity},
+  editor =	{Maribel Fern{\'a}ndez},
+  booktitle =	{26th International Conference on Rewriting Techniques and Applications, RTA 2015},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  year =	{2015},
+  volume =	{36},
+  pages =	{334--349},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+}
+@inproceedings{Energy,
+ author = {Grech, Neville
+ and Georgiou, Kyriakos
+ and Pallister, James
+ and Kerrison, Steve
+ and Morse, Jeremy
+ and Eder, Kerstin},
+ editor    = {Henk Corporaal and
+               Sander Stuijk},
+ title = {Static Analysis of Energy Consumption for {LLVM} {IR} Programs},
+ booktitle = {Proceedings of the 18th International Workshop on Software and Compilers for Embedded Systems, {SCOPES} 2015},
+ year = {2015},
+ pages = {12--21},
+ numpages = {10},
+ publisher = {ACM},
+} 
+
+@inproceedings{Carbonneaux2015,
+ author = {Carbonneaux, Quentin and Hoffmann, Jan and Shao, Zhong},
+ title = {Compositional Certified Resource Bounds},
+ editor    = {David Grove and
+               Steve Blackburn},
+ booktitle = {Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI 2015},
+ year = {2015},
+ pages = {467--478},
+ numpages = {12},
+ publisher = {ACM},
+} 
+
+
+@inproceedings{Rank,
+  author    = {Christophe Alias and
+               Alain Darte and
+               Paul Feautrier and
+               Laure Gonnord},
+  editor    = {Radhia Cousot and
+               Matthieu Martel},
+  title     = {Multi-dimensional Rankings, Program Termination, and Complexity Bounds
+               of Flowchart Programs},
+  booktitle = {Proceedings of Static Analysis - 17th International Symposium, {SAS} 2010},
+  series    = lncs,
+  volume    = {6337},
+  pages     = {117--133},
+  publisher = {Springer},
+  year      = {2010},
+}
+
+
+
+@inproceedings{FMH14,
+  author =	 {Flores{-}Montoya, Antonio
+                 and Reiner H{\"a}hnle},
+  editor =	 {Jacques Garrigue},
+  title =	 {Resource Analysis of Complex Programs with Cost
+                  Equations},
+  booktitle =	 {12th Asian Symposium on Programming Languages and
+                  Systems, {APLAS} 2014},
+  series =	lncs,
+  volume =	 8858,
+  year =	 2014,
+  pages =	 {275--295},
+  publisher =	 {Springer},
+  abstract = {We present a novel static analysis for inferring precise complexity bounds of imperative and recursive programs. The analysis operates on cost equations. Therefore, it permits uniform treatment of loops and recursive procedures. The analysis is able to provide precise upper bounds for programs with complex execution flow and multi-dimensional ranking functions. In a first phase, a combination of control-flow refinement and invariant generation creates a representation of the possible behaviors of a (possibly inter-procedural) program in the form of a set of execution patterns. In a second phase, a cost upper bound of each pattern is obtained by combining individual costs of code fragments. Our technique is able to detect dependencies between different pieces of code and hence to compute a precise upper bounds for a given program. A prototype has been implemented and evaluated to demonstrate the effectiveness of the approach.},
+  month={11},
+  url = {https://www.se.tu-darmstadt.de/fileadmin/user_upload/Group_SE/Page_Content/Group_Members/Antonio_Flores-Montoya/APLAS14techReport.pdf}
+}
+@inproceedings{GarciaLL15,
+  author    = {Abel Garcia and
+               Cosimo Laneve and
+               Michael Lienhardt},
+  editor    = {Moreno Falaschi and
+               Elvira Albert},
+  title = 	 {Static analysis of cloud elasticity},
+  booktitle = {Proceedings of the 17th International Symposium on Principles and
+               Practice of Declarative Programming, PPDP 2015},
+  pages     = {125--136},
+  year      = {2015},
+  publisher = {{ACM}},
+}
+
+@inproceedings{PodelskiR04,
+  author    = {Andreas Podelski and
+               Andrey Rybalchenko},
+  editor    = {Bernhard Steffen and
+               Giorgio Levi},
+  title     = {A Complete Method for the Synthesis of Linear Ranking Functions},
+  booktitle = {Proceedings of Verification, Model Checking, and
+                  Abstract Interpretation, 5th International
+                  Conference, {VMCAI} 2004},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {2937},
+  year      = {2004},
+  pages     = {239--251},
+  publisher = {Springer},
+}
+@inproceedings{Zuleger,
+  author    = {Florian Zuleger and
+               Sumit Gulwani and
+               Moritz Sinn and
+               Helmut Veith},
+  editor    = {Eran Yahav},
+  title     = {Bound Analysis of Imperative Programs with the Size-Change Abstraction},
+  booktitle = {Proceedings of Static Analysis - 18th International Symposium, {SAS} 2011},
+  series    = lncs,
+  volume    = {6887},
+  pages     = {280--297},
+  publisher = {Springer},
+  year      = {2011},
+}
+
+@inproceedings{Gulavani,
+  author    = {Bhargav S. Gulavani and
+               Sumit Gulwani},
+  editor    = {Aarti Gupta and
+               Sharad Malik},
+  title     = {A Numerical Abstract Domain Based on Expression Abstraction and {Max}
+               Operator with Application in Timing Analysis},
+  booktitle = {Proceedings of Computer Aided Verification, 20th International Conference, {CAV}
+               2008},
+  series    = lncs,
+  year      = {2008},
+  volume    = {5123},
+  pages     = {370--384},
+  publisher = {Springer},
+}
+
+
+@inproceedings{Gulwani09control-flowrefinement,
+  author    = {Sumit Gulwani and
+               Sagar Jain and
+               Eric Koskinen},
+  editor    = {Michael Hind and
+               Amer Diwan},
+  title     = {Control-flow refinement and progress invariants for bound analysis},
+  booktitle = {Proceedings of the 2009 {ACM} {SIGPLAN} Conference on Programming
+               Language Design and Implementation, {PLDI} 2009},
+  pages     = {375--385},
+  publisher = {{ACM}},
+  year      = {2009},
+}
+
+
+@InProceedings{falke_et_al,
+  author =	{Stephan Falke and Deepak Kapur and Carsten Sinz},
+  title =	{Termination Analysis of {C} Programs Using Compiler Intermediate Languages},
+  editor =	{Manfred Schmidt-Schau{\ss}},
+  booktitle =	{Proceedings of the 22nd International Conference on Rewriting Techniques and Applications (RTA'11)},
+  pages =	{41--50},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  year =	{2011},
+  volume =	{10},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+}
+
+@inproceedings{Gulwani10thereachability-bound,
+  author    = {Sumit Gulwani and
+               Florian Zuleger},
+  editor    = {Benjamin G. Zorn and
+               Alexander Aiken},
+  title     = {The reachability-bound problem},
+  booktitle = {Proceedings of the 2010 {ACM} {SIGPLAN} Conference on Programming
+               Language Design and Implementation, {PLDI} 2010},
+  pages     = {292--304},
+  publisher = {{ACM}},
+  year      = {2010},
+}
+
+@inproceedings{SinnZV14,
+  author    = {Moritz Sinn and
+               Florian Zuleger and
+               Helmut Veith},
+  editor    = {Armin Biere and
+               Roderick Bloem},
+  title     = {A Simple and Scalable Static Analysis for Bound Analysis and Amortized
+               Complexity Analysis},
+  booktitle = {Proceedings of Computer Aided Verification - 26th International Conference, {CAV}
+               2014},
+  location= {Vienna, Austria, July 18-22, 2014},      
+  series    = lncs,
+  volume    = {8559},
+  pages     = {745--761},
+  publisher = {Springer},
+  year      = {2014},
+}
+
+@inproceedings{Koat,
+  author    = {Marc Brockschmidt and
+               Fabian Emmes and
+               Stephan Falke and
+               Carsten Fuhs and
+               J{\"{u}}rgen Giesl},
+  editor    = {Erika {\'{A}}brah{\'{a}}m and
+               Klaus Havelund},
+  title     = {Alternating Runtime and Size Complexity Analysis of Integer Programs},
+  booktitle = {Proceedings of Tools and Algorithms for the Construction and Analysis of Systems
+               - 20th International Conference, {TACAS} 2014},
+  location= {Grenoble, France, April 5-13, 2014},
+  series    = lncs,
+  volume    = {8413},
+  pages     = {140--155},
+  publisher = {Springer},
+  year      = {2014},
+}
+
+@inproceedings{SPEED,
+  author    = {Sumit Gulwani and
+               Krishna K. Mehra and
+               Trishul M. Chilimbi},
+  editor    = {Zhong Shao and
+               Benjamin C. Pierce},
+  title     = {{SPEED:} precise and efficient static estimation of program computational
+               complexity},
+  booktitle = {Proceedings of the 36th {ACM} {SIGPLAN-SIGACT} Symposium on Principles
+               of Programming Languages, {POPL} 2009},
+  location={Savannah, GA, USA, January 21-23, 2009},
+  pages     = {127--139},
+  publisher = {{ACM}},
+  year      = {2009},
+}
+
+
+@inproceedings{DebLoHerLin97,
+  author    = {Saumya K. Debray and
+               Pedro L{\'{o}}pez{-}Garc{\'{\i}}a and
+               Manuel V. Hermenegildo and
+               Nai{-}Wei Lin},
+  editor    = {Jan Maluszynski},
+  title     = {Lower Bound Cost Estimation for Logic Programs},
+  booktitle = {Logic Programming, Proceedings of the 1997 International Symposium},
+  location={Port Jefferson, Long Island, NY, USA, October 13-16, 1997},
+  pages     = {291--305},
+  publisher = {{MIT} Press},
+  year      = {1997},
+}
+
+@inproceedings{Albert_typed_norms,
+author={Albert, Elvira
+and Genaim, Samir
+and Guti{\'e}rrez, Ra{\'u}l
+},
+editor    = {Gopal Gupta and
+               Ricardo Pe{\~{n}}a},
+title={A Transformational Approach to Resource Analysis with Typed-Norms},
+bookTitle={Logic-Based Program Synthesis and Transformation: 23rd International Symposium, LOPSTR 2013,  Revised Selected Papers},
+location={Madrid, Spain, September 18-19, 2013},
+series    = lncs,
+  volume    = {8901},
+  pages     = {38--53},
+  publisher = {Springer},
+  year      = {2013},
+}
+ 
+@inproceedings{Knoop2012,
+  author    = {Jens Knoop and
+               Laura Kov{\'{a}}cs and
+               Jakob Zwirchmayr},
+  editor    = {Edmund M. Clarke and
+               Irina Virbitskaite and
+               Andrei Voronkov},
+  title     = {Symbolic Loop Bound Computation for {WCET} Analysis},
+  booktitle = {Perspectives of Systems Informatics - 8th International Andrei Ershov
+               Memorial Conference, {PSI} 2011, Revised Selected Papers},
+  location={ Novosibirsk, Russia, June 27-July  1, 2011},
+  series    = lncs,
+  volume    = {7162},
+  pages     = {227--242},
+  publisher = {Springer},
+  year      = {2011},
+}
+
+
+
+
+
+@inproceedings{Debray1994,
+  author    = {Saumya K. Debray and
+               Pedro L{\'{o}}pez{-}Garc{\'{\i}}a and
+               Manuel V. Hermenegildo and
+               Nai{-}Wei Lin},
+  title     = {Estimating the Computational Cost of Logic Programs},
+  bookTitle={Proceedings of Static Analysis: First International Static Analysis Symposium, SAS'94},
+  location={Namur, Belgium, September 28--30, 1994 },
+  series=lncs,
+  volume={864},
+  pages     = {255--265},
+  year      = {1994},
+  publisher={Springer},
+}
+
+
+
+
+@inProceedings{AlbertCR14,
+  author    = {Elvira Albert and
+               Jes\'us Correas and 
+               Guillermo Rom\'an-D\'iez},
+  title     = {Peak Cost Analysis of Distributed Systems},
+  editor    = {Markus M{\"{u}}ller{-}Olm and
+               Helmut Seidl},
+  booktitle = {Proceedings of Static Analysis - 21st International Symposium, {SAS} 2014},
+  location  ={Munich, Germany, September 11-13, 2014},
+  series    = lncs,
+  year      = {2014},
+  volume    = {8723}, 
+  pages	    = {18--33},
+  publisher = {Springer},
+}
+
+
+@inproceedings{AlbertCJR15,
+  author    = {Elvira Albert and
+               Jes\'us Correas and 
+               Einar Broch Johnsen and 
+               Guillermo Rom\'an-D\'iez},
+  editor    = {Sandrine Blazy and
+               Thomas Jensen},
+  title     = {Parallel Cost Analysis of Distributed Systems},
+  booktitle     = {Proceedings of Static Analysis - 22nd International
+                  Symposium, {SAS} 2015},  
+  series = lncs,
+  year      = {2015},
+  volume={9291},
+  pages={275-292},
+  publisher = {Springer},
+}
+
+@inproceedings{AlbertCMR14,
+  author    = {Elvira Albert and
+               Jes\'us Correas and 
+               Enrique Mart\'in-Mart\'in and 
+               Guillermo Rom\'an-D\'iez},
+  editor    = {Tiziana Margaria and
+               Bernhard Steffen},
+  title     = {Static Inference of Transmission Data Sizes in Distributed Systems},
+  booktitle = {Proceedings of 6th International Symposium On Leveraging Applications
+                  of Formal Methods, Verification and Validation,
+                  ISOLA 2014},
+  publisher = {Springer},
+  series 	= lncs,
+  year      = {2014},
+  volume	= {8803},
+  pages		= {104--119},
+}
+
+
+
+@inproceedings{AlbertAGGP11,
+  author    = {Elvira Albert and
+  Puri Arenas and
+  Samir Genaim and
+  Miguel G\'{o}mez-Zamalloa and
+  Germ\'an Puebla},
+  editor    = {Hongseok Yang},
+  title     = {Cost Analysis of Concurrent {OO} Programs},
+  booktitle = {Proceedings of Programming Languages and Systems - 9th Asian Symposium,
+               APLAS 2011},
+  location={Kenting, Taiwan, December 5-7, 2011},
+  series    = lncs,
+  year      = {2011},
+  volume    = {7078},
+  pages     = {238-254},
+  publisher = {Springer},
+}
+
+
+@inproceedings{Benoy,
+  author    = {Florence Benoy and
+               Andy King},
+  editor    = {John P. Gallagher},
+  title     = {Inferring Argument Size Relationships with {CLP(R)}},
+  booktitle = {Proceedings of Logic Programming Synthesis and Transformation, 6th International
+               Workshop, LOPSTR'96},
+  location={ Stockholm, Sweden, August 28-30, 1996},
+  series    = lncs,
+  volume    = {1207},
+  pages     = {204--223},
+  publisher = {Springer},
+  year      = {1996},
+}
+
+
+@inproceedings{FM16,
+  author    = {Antonio Flores{-}Montoya},
+  title     = {Upper and Lower Amortized Cost Bounds of Programs Expressed as Cost
+               Relations},
+  editor    = {John S. Fitzgerald and
+               Constance L. Heitmeyer and
+               Stefania Gnesi and
+               Anna Philippou},
+  booktitle = {Proceedings of Formal Methods - 21st International Symposium, {FM} 2016},
+  location={Limassol,  Cyprus, November 9-11, 2016},
+  
+  series    = lncs,
+  year      = {2016},
+  volume    = {9995},
+  pages     = {254--273},
+ publisher = {Springer},
+month={11},
+abstract={Resource analysis aims at statically obtaining bounds on the resource consumption of programs in terms of input parameters. A well known approach to resource analysis is based on transforming the target program into a set of cost relations, then solving these into a closed-form bound. In this paper we develop a new analysis for computing upper and lower cost bounds of programs expressed as cost relations. The analysis is compositional: it computes the cost of each loop or function separately and composes the obtained expressions to obtain the total cost. Despite being modular, the analysis can obtain precise upper and lower bounds of programs with amortized cost. The key is to obtain bounds that depend on the values of the variables at the beginning and at the end of each program part. In addition we use a novel cost representation called cost structure. It allows to reduce the inference of complex polynomial expressions to a set of linear problems that can be solved efficiently. We implemented our method and performed an extensive experimental evaluation that demonstrates its power.},
+url={https://www.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_SE/Publications/FM2016_extended.pdf}
+}
+
+@inproceedings{JHSSS10,
+  author =       {Einar Broch Johnsen and
+                  Reiner H{\"a}hnle and
+                  Jan Sch{\"a}fer and
+                  Rudolf Schlatte and
+		  Martin Steffen},
+  editor =	 {Bernhard Aichernig and Frank S. de Boer and Marcello M. Bonsangue},
+  title =        {{ABS}: A Core Language for Abstract Behavioral Specification},
+  booktitle =	 {Proceedings of 9th International Symposium on Formal Methods for
+                  Components and Objects, {FMCO} 2010},
+  year =         {2011},
+  series =       lncs,
+  volume =       {6957},
+  pages =        {142--164},
+publisher= {Springer},
+}
+@inproceedings{CousotH78,
+  author    = {Patrick Cousot and
+               Nicolas Halbwachs},
+  editor    = {Alfred V. Aho and
+               Stephen N. Zilles and
+               Thomas G. Szymanski},
+  title     = {Automatic Discovery of Linear Restraints Among Variables of a Program},
+  booktitle = {Proceedings of the Fifth Annual {ACM} Symposium on Principles
+               of Programming Languages, POPL 1978},
+  location={Tucson, Arizona, USA, January 1978},
+  pages     = {84--96},
+  publisher = {{ACM} Press},
+  year      = {1978},
+ 
+}
+
+@inproceedings{AlbertFMG15,
+  author    = {Elvira Albert and
+               Antonio Flores{-}Montoya and
+               Samir Genaim},
+  editor    = {Marko C. J. D. van Eekelen and
+               Ugo Dal Lago},
+  title     = {May-Happen-in-Parallel Analysis with Condition Synchronization},
+  booktitle = {Foundational and Practical Aspects of Resource Analysis - 4th International
+               Workshop, {FOPARA} 2015, Revised Selected
+               Papers},
+  location={London, UK, April 11, 2015},
+  series    = lncs,
+  volume    = {9964},
+  pages     = {1--19},
+  year      = {2015},
+month={04},
+abstract={Concurrent programs can synchronize by means of conditions and/or message passing. In the former, processes communicate and synchronize by means of shared variables that several processes can read and write. In the latter, communication is by sending, receiving and waiting for messages. Condition synchronization is often more efficient but also more difficult to analyze and reason about. In this paper, we leverage an existing may-happen-in-parallel (MHP) analysis, which was designed for a particular form of message passing based on future variables, to handle condition synchronization effectively, thus enabling the analysis of programs that use both mechanisms. This is done by developing a must-have-finished analysis which is used to refine the MHP relations inferred by the original MHP analysis. The information inferred by an MHP has been proven to be essential to infer both safety properties (e.g., deadlock freedom) and liveness properties (termination and resource boundedness) of concurrent programs.},
+url={http://costa.ls.fi.upm.es/papers/costa/AlbertFMG15.pdf}
+}
+
+
+@inproceedings{AlbertFGM13,
+  author = {Elvira Albert and
+  Antonio Flores-Montoya and
+  Samir Genaim and
+  Enrique Martin-Martin},
+    title = {Termination and Cost Analysis of Loops with Concurrent Interleavings},
+editor    = {Dang Van Hung and Mizuhito Ogawa},
+booktitle = {Proceedings of Automated Technology for Verification and Analysis - 11th
+               International Symposium, ATVA 2013},
+  location={Hanoi, Vietnam, October  15-18, 2013},   
+  series    = lncs,
+  year      = {2013},
+  volume    = {8172},
+  pages     = {349-364},
+  publisher = {Springer},  
+month={10},
+abstract={By following a rely-guarantee style of reasoning, we present a novel termination analysis for concurrent programs that, in order to prove termination of a considered loop, makes the assumption that the “shared-data that is involved in the termination proof of the loop is modified a finite number of times”. In a subsequent step, it proves that this assumption holds in all code whose execution might interleave with such loop. At the core of the analysis, we use a may-happen-in-parallel analysis to restrict the set of program points whose execution can interleave with the considered loop. Interestingly, the same kind of reasoning can be applied to infer upper bounds on the number of iterations of loops with concurrent interleavings. To the best of our knowledge, this is the first method to automatically bound the cost of such kind of loops.},
+url={http://costa.ls.fi.upm.es/papers/costa/AlbertFGM13.pdf} 
+}
+@inproceedings{FloresAG13,
+  author    = {Antonio Flores{-}Montoya and
+               Elvira Albert and
+               Samir Genaim},
+  editor    = {Dirk Beyer and
+               Michele Boreale},
+  title     = {May-Happen-in-Parallel Based Deadlock Analysis for Concurrent Objects},
+  booktitle = {Proceedings of Formal Techniques for Distributed Systems - Joint {IFIP} {WG} 6.1
+               International Conference, {FMOODS/FORTE} 2013},
+  location={ Florence, Italy, June 3-5, 2013},
+  series    = lncs,
+  volume    = {7892},
+  pages     = {273--288},
+  publisher = {Springer},
+  year      = {2013},
+month={06},
+abstract={We present a novel deadlock analysis for concurrent objects based on the results inferred by a points-to analysis and a may-happen-in-parallel (MHP) analysis. Similarly to other analysis, we build a dependency graph such that the absence of cycles in the graph ensures deadlock freeness. An MHP analysis provides an over-approximation of the pairs of program points that may be running in parallel. The crux of the method is that the analysis integrates the MHP information within the dependency graph in order to discard unfeasible cycles that otherwise would lead to false positives. We argue that our analysis is more precise and/or efficient than previous proposals for deadlock analysis of concurrent objects. As regards accuracy, we are able to handle cases that other analyses have pointed out as challenges. As regards efficiency, the complexity of our deadlock analysis is polynomial.},
+url={http://rdcu.be/vlku}
+}
+
+
+@inproceedings {AlbertFG12,
+   author = {Elvira Albert
+   and Antonio Flores-Montoya
+   and Samir Genaim},
+   title = {Analysis of May-Happen-in-Parallel in Concurrent Objects},
+   editor = {Giese, Holger and Rosu, Grigore},
+   booktitle = {Proceedings of Formal Techniques for Distributed Systems - Joint 14th {IFIP} {WG}
+               6.1 International Conference, {FMOODS} 2012 and 32nd {IFIP} {WG} 6.1
+               International Conference, {FORTE} 2012},
+   location={Stockholm, Sweden, June 13-16, 2012},
+   series = lncs,
+   volume = {7273},
+   year = {2012},
+   pages = {35-51},
+   publisher = {Springer}, 
+month={06},
+abstract={This paper presents a may-happen-in-parallel (MHP) analysis for OO languages based on concurrent objects. In this concurrency model, objects are the concurrency units such that, when a method is invoked on an object o2 from a task executing on object o1, statements of the current task in o1 may run in parallel with those of the (asynchronous) call on o2, and with those of transitively invoked methods. The goal of the MHP analysis is to identify pairs of statements in the program that may run in parallel in any execution. Our MHP analysis is formalized as a method-level (local) analysis whose information can be modularly composed to obtain application-level (global) information.},
+url={http://rdcu.be/vlk5} 
+}
+
+
+@incollection{Festa2009,
+  author    = {Paola Festa and
+               Panos M. Pardalos and
+               Mauricio G. C. Resende},
+  editor    = {Christodoulos A. Floudas and
+               Panos M. Pardalos},
+  title     = {Feedback Set Problems},
+  booktitle = {Encyclopedia of Optimization, Second Edition},
+  pages     = {1005--1016},
+  publisher = {Springer},
+  year      = {2009},
+}
+
+@inproceedings{WMZC07,
+  author    = {Tao Wei and
+               Jian Mao and
+               Wei Zou and
+               Yu Chen},
+  editor    = {Hanne Riis Nielson and
+               Gilberto Fil{\'{e}}},
+  title     = {A New Algorithm for Identifying Loops in Decompilation},
+  booktitle = {Proceedings of Static Analysis, 14th International Symposium, {SAS} 2007},
+  location={Kongens Lyngby, Denmark, August 22-24, 2007},
+  series    = lncs,
+  year      = {2007},
+  volume    = {4634},
+  pages     = {170--183},
+  publisher = {Springer},
+}
+
+
+@inproceedings{AlbertCR15,
+	author = {Elvira Albert and
+	Jes\'us Correas and
+	Guillermo Rom\'{a}n-D\'{i}ez},
+	title = {Non-Cumulative Resource Analysis},
+	editor    = {Christel Baier and
+               Cesare Tinelli},
+	booktitle={Proceedings of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems, TACAS 2015},
+	series=lncs,
+	pages={85-100},
+	volume={9035},
+	year={2015},
+	publisher={Springer},
+}
+
+
+
+@inproceedings{Proietti:1991:SPT:115865.115895,
+ author = {Proietti, Maurizio and Pettorossi, Alberto},
+ title = {Semantics Preserving Transformation Rules for Prolog},
+ booktitle = {Proceedings of the 1991 ACM SIGPLAN Symposium on Partial Evaluation and Semantics-based Program Manipulation, PEPM '91},
+ location = {New Haven, Connecticut, USA},
+ year = {1991},
+ pages = {274--284},
+ publisher = {ACM},
+} 
+
+
+@inproceedings{Hoffmann:2017,
+ author = {Hoffmann, Jan
+ and Das, Ankush
+ and Weng, Shu-Chun},
+ editor    = {Giuseppe Castagna and
+               Andrew D. Gordon},
+ title = {Towards Automatic Resource Bound Analysis for {OCaml}},
+ booktitle = {Proceedings of the 44th ACM SIGPLAN Symposium on
+                  Principles of Programming Languages, POPL 2017},
+location = {Paris, France},
+year = {2017}, 
+ pages = {359--373},
+ publisher = {ACM},
+} 
+
+
+@inproceedings{Crary,
+ author = {Crary, Karl and
+ Weirich, Stephnie},
+ title = {Resource Bound Certification},
+ editor    = {Mark N. Wegman and
+               Thomas W. Reps},
+ booktitle = {Proceedings of the 27th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, POPL '00},
+ location = {Boston, MA, USA},
+ year = {2000},
+ pages = {184--198},
+ publisher = {ACM},
+} 
+
+
+
+@inproceedings{CernyHKRZ15,
+  author    = {Pavol Cern{\'{y}} and
+               Thomas A. Henzinger and
+               Laura Kov{\'{a}}cs and
+               Arjun Radhakrishna and
+               Jakob Zwirchmayr},
+  editor    = {Jan Vitek},
+  title     = {Segment Abstraction for Worst-Case Execution Time Analysis},
+  booktitle = {Proceedings of Programming Languages and Systems - 24th European Symposium on Programming,  {ESOP} 2015},
+  location={  London, UK, April 11-18, 2015},
+  pages     = {105--131},
+  year      = {2015},
+  series    = lncs,
+  volume    = {9032},
+  publisher = {Springer},
+}
+
+@inproceedings{avanzini_et_al:LIPIcs:2015:5187,
+  author =	{Martin Avanzini and
+         Christian Sternagel and
+         Ren{\'e} Thiemann},
+  title =	{Certification of Complexity Proofs using {CeTA}},
+  editor =	{Maribel Fern{\'a}ndez},
+  booktitle =	{26th International Conference on Rewriting Techniques and Applications, RTA 2015},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  year =	{2015},
+  volume =	{36},
+  pages =	{23--39},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+}
+
+@inproceedings{Hirokawa:2008:ACA:1431108.1431151,
+ author = {Hirokawa, Nao and Moser, Georg},
+ title = {Automated Complexity Analysis Based on the Dependency Pair Method},
+ editor    = {Alessandro Armando and
+               Peter Baumgartner and
+               Gilles Dowek},
+ booktitle = {Proceedings of the 4th International Joint Conference on Automated Reasoning, IJCAR '08},
+ location = {Sydney, Australia},
+ series    = lncs,
+ volume    = {5195},
+ year = {2008},
+ pages = {364--379},
+ publisher = {Springer},
+} 
+
+@inproceedings{Hofmann2014,
+  author    = {Martin Hofmann and
+               Georg Moser},
+  editor    = {Gilles Dowek},
+  title     = {Amortised Resource Analysis and Typed Polynomial Interpretations},
+  booktitle = {Proceedings of Rewriting and Typed Lambda Calculi - Joint International Conference,
+               {RTA-TLCA} 2014},
+ location={Vienna, Austria, July 14-17, 2014},
+  series    = lncs,
+  volume    = {8560},
+  pages     = {272--286},
+  publisher = {Springer},
+  year      = {2014},
+}
+
+
+@inproceedings{Brockschmidt2016,
+author={Brockschmidt, Marc
+and Cook, Byron
+and Ishtiaq, Samin
+and Khlaaf, Heidy
+and Piterman, Nir},
+editor={Chechik, Marsha
+and Raskin, Jean-Fran{\c{c}}ois},
+title={{T2:} Temporal Property Verification},
+bookTitle={Proceeding of Tools and Algorithms for the Construction and
+                  Analysis of Systems: 22nd International Conference,
+                  TACAS 2016},
+location={Eindhoven, The Netherlands, April 2-8, 2016},
+series  = lncs,
+volume  = {9636},
+year={2016},
+pages={387--393},
+publisher={Springer},
+}
+@inproceedings{Heizmann:2014:TAL:2735050.2735116,
+  author    = {Matthias Heizmann and
+               Jochen Hoenicke and
+               Andreas Podelski},
+  editor    = {Armin Biere and
+               Roderick Bloem},
+  title     = {Termination Analysis by Learning Terminating Programs},
+  booktitle = {Proceeding of Computer Aided Verification - 26th International Conference, {CAV}
+               2014},
+  location={ Vienna, Austria, July 18-22, 2014},
+  series    = lncs,
+  volume    = {8559},
+  pages     = {797--813},
+  publisher = {Springer},
+  year      = {2014},
+}
+@inproceedings{Avanzini2016,
+  author    = {Martin Avanzini and
+               Georg Moser and
+               Michael Schaper},
+  editor    = {Marsha Chechik and
+               Jean{-}Fran{\c{c}}ois Raskin},
+  title     = {{TcT:} {T}yrolean {C}omplexity {T}ool},
+  booktitle = {Proceedings of Tools and Algorithms for the Construction and Analysis
+                  of Systems - 22nd International Conference, {TACAS}
+                  2016},
+ location   = {Eindhoven, The Netherlands, April 2-8, 2016},
+  series    = lncs,
+  volume    = {9636},
+  pages     = {407--423},
+  publisher = {Springer},
+  year      = {2016},
+}
+
+@inproceedings{Avanzini:2015:ACF:2784731.2784753,
+  author    = {Martin Avanzini and
+               Ugo Dal Lago and
+               Georg Moser},
+  editor    = {Kathleen Fisher and
+               John H. Reppy},
+  title     = {Analysing the complexity of functional programs: higher-order meets
+               first-order},
+  booktitle = {Proceedings of the 20th {ACM} {SIGPLAN} International Conference on
+               Functional Programming, {ICFP} 2015},
+  location={ Vancouver, BC, Canada, September 1-3, 2015},
+  pages     = {152--164},
+  publisher = {{ACM}},
+  year      = {2015},
+}
+@inproceedings{hofmann_et_al:LIPIcs:2015:5167,
+  author    = {Martin Hofmann and
+               Georg Moser},
+  editor    = {Thorsten Altenkirch},
+  title     = {Multivariate Amortised Resource Analysis for Term Rewrite Systems},
+  booktitle = {13th International Conference on Typed Lambda Calculi and Applications,
+               {TLCA} 2015},
+  location  = {July 1-3, 2015, Warsaw, Poland},
+  series    = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  volume    = {38},
+  pages     = {241--256},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},
+  year      = {2015},
+}
+
+@inproceedings{Bjrner2015,
+  author    = {Nikolaj Bj{\o}rner and
+               Arie Gurfinkel and
+               Kenneth L. McMillan and
+               Andrey Rybalchenko},
+  editor    = {Lev D. Beklemishev and
+               Andreas Blass and
+               Nachum Dershowitz and
+               Bernd Finkbeiner and
+               Wolfram Schulte},
+  title     = {Horn Clause Solvers for Program Verification},
+  booktitle = {Fields of Logic and Computation {II} - Essays Dedicated to Yuri Gurevich
+               on the Occasion of His 75th Birthday},
+  series    = lncs,
+  volume    = {9300},
+  pages     = {24--51},
+  publisher = {Springer},
+  year      = {2015},
+
+}
+
+@inproceedings{Jost:2010:SDQ:1706299.1706327,
+  author    = {Steffen Jost and
+               Kevin Hammond and
+               Hans{-}Wolfgang Loidl and
+               Martin Hofmann},
+  editor    = {Manuel V. Hermenegildo and
+               Jens Palsberg},
+  title     = {Static determination of quantitative resource usage for higher-order
+               programs},
+  booktitle = {Proceedings of the 37th {ACM} {SIGPLAN-SIGACT} Symposium on Principles
+               of Programming Languages, {POPL} 2010},
+ location   = {Madrid, Spain, January 17-23, 2010},
+  pages     = {223--236},
+  publisher = {{ACM}},
+  year      = {2010},
+}
+
+
+
+@inproceedings{LarrazNORR14,
+  author    = {Daniel Larraz and
+               Kaustubh Nimkar and
+               Albert Oliveras and
+               Enric Rodr{\'{\i}}guez{-}Carbonell and
+               Albert Rubio},
+  editor    = {Armin Biere and
+               Roderick Bloem},
+  title     = {Proving Non-termination Using {Max-SMT}},
+  booktitle = {Proceedings of Computer Aided Verification - 26th International Conference, {CAV}
+               2014},
+  location  = { Vienna, Austria, July 18-22, 2014},
+  series    = lncs,
+  volume    = {8559},
+  year      = {2014},
+  pages     = {779--796},
+  publisher = {Springer},
+}
+@inproceedings{LarrazORR13,
+  author    = {Daniel Larraz and
+               Albert Oliveras and
+               Enric Rodr{\'{\i}}guez{-}Carbonell and
+               Albert Rubio},
+  title     = {Proving termination of imperative programs using {Max-SMT}},
+  booktitle = {Proceedings of Formal Methods in Computer-Aided Design, {FMCAD} 2013},
+  location  = {Portland, OR, USA, October 20-23, 2013},
+  pages     = {218--225},
+  year      = {2013},
+  publisher = {{IEEE}},
+
+}
+@inproceedings{Brockschmidt:2013:BTP:2958031.2958106,
+  author    = {Marc Brockschmidt and
+               Byron Cook and
+               Carsten Fuhs},
+  editor    = {Natasha Sharygina and
+               Helmut Veith},
+  title     = {Better Termination Proving through Cooperation},
+  booktitle = {Proceedings of Computer Aided Verification - 25th International Conference, {CAV}
+               2013},
+  location  = {Saint Petersburg, Russia, July 13-19, 2013},
+  series    = lncs,
+  volume    = {8044},
+  pages     = {413--429},
+  publisher = {Springer},
+  year      = {2013},
+}
+@inproceedings{Urban2014,
+  author    = {Caterina Urban and
+               Antoine Min{\'{e}}},
+  editor    = {Markus M{\"{u}}ller{-}Olm and
+               Helmut Seidl},
+  title     = {A Decision Tree Abstract Domain for Proving Conditional Termination},
+  booktitle = {Proceedings of Static Analysis - 21st International Symposium, {SAS} 2014},
+  location  = {Munich, Germany, September 11-13, 2014},
+  series    = lncs,
+  volume    = {8723},
+  pages     = {302--318},
+  publisher = {Springer},
+  year      = {2014},
+
+}
+@inproceedings{ben2017multiphase,
+  author    = {Amir M. Ben{-}Amram and
+               Samir Genaim},
+  editor    = {Rupak Majumdar and
+               Viktor Kuncak},
+  title     = {On Multiphase-Linear Ranking Functions},
+  booktitle = {Proceedings of Computer Aided Verification - 29th International Conference, {CAV}
+               2017},
+  location={Heidelberg, Germany, July 24-28, 2017},
+  series    = lncs,
+  volume    = {10427},
+  pages     = {601--620},
+  publisher = {Springer},
+  year      = {2017},
+}
+@inproceedings{Carbonneaux:2014:EVS:2594291.2594301,
+  author    = {Quentin Carbonneaux and
+               Jan Hoffmann and
+               Tahina Ramananandro and
+               Zhong Shao},
+  editor    = {Michael F. P. O'Boyle and
+               Keshav Pingali},
+  title     = {End-to-end verification of stack-space bounds for {C} programs},
+  booktitle = {Proceedings of the 35th {ACM} {SIGPLAN} Conference on
+                  Programming Language Design and Implementation,
+                  {PLDI} '14},
+  location={Edinburgh, United Kingdom - June 09 - 11, 2014},
+  pages     = {270--281},
+  publisher = {{ACM}},
+  year      = {2014},
+}
+
+@inproceedings{Singh:2017:FPA:3009837.3009885,
+ author = {Singh, Gagandeep and P\"{u}schel, Markus and Vechev, Martin},
+ title = {Fast Polyhedra Abstract Domain},
+ editor    = {Giuseppe Castagna and
+               Andrew D. Gordon},
+ booktitle = {Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages, POPL 2017},
+ location = {Paris, France, January 18-20, 2017},
+ year = {2017},
+ pages = {46--59},
+ publisher = {ACM},
+}
+
+
+@inproceedings{AproveTRS,
+author={
+Naaf, Matthias
+and Frohn, Florian
+and Brockschmidt, Marc
+and Fuhs, Carsten
+and Giesl, J{\"u}rgen},
+title={Complexity Analysis for Term Rewriting by Integer Transition Systems},
+booktitle={Proceedings of the 11th International Symposium on Frontiers of Combining Systems, FroCoS 2017},
+location={Brasilia, Brazil},
+series={Lecture Notes in Artificial Intelligence},
+note={To appear},
+publisher={Springer},
+year={2017},
+}
+
+
+@inproceedings{AproveJava,
+author={Frohn, Florian  
+and Giesl, J{\"u}rgen},
+title={Complexity Analysis for Java with {AProVE}},
+booktitle={Proceedings of the 13th International Conference on integrated Formal Methods, iFM '17},
+location={Turin, Italy},
+series=lncs,
+note={To appear},
+publisher={Springer},
+year={2017},
+}
+
