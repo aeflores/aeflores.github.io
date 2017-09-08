@@ -70,6 +70,15 @@ html {
   }
 }
 
+  .cond_img {
+    display: none;
+  }
+@media (min-width: 48em) and (min-height: 30em)  {
+  .cond_img {
+    display: initial;
+  }
+}
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
