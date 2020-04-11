@@ -2,6 +2,14 @@
 layout: page
 title: Software
 ---
+### [Ddisasm](https://github.com/GrammaTech/ddisasm)
+
+Ddisasm is a disassembler written in Datalog. It produces reassembleable assembly and it uses
+the [Souffle](https://souffle-lang.github.io/) Datalog engine to achieve great speed.
+
+#### Related publications:
+
+* [Datalog Disassembly](https://arxiv.org/abs/1906.03969)
 
 ### [CoFloCo](http://aeflores.github.io/CoFloCo/) ([github](https://github.com/aeflores/CoFloCo))
 
